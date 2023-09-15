@@ -1,1 +1,15 @@
-@import "../index.css"
+@import "../index.css";
+body {
+  --tools-width:max(300px, 20vw);
+}
+.tools-container {
+  width:var(--tools-width);
+}
+
+.image-show-canvas #imageShowCanvas {
+  width: 100%;
+}
+
+div.button[selected="true"]{
+  border: 1px solid gray;
+}
